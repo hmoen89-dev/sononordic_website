@@ -354,16 +354,16 @@ class _HomePage extends StatelessWidget {
                     child: Column(
                       children: const [
                         _HighlightCard(
-                          title: 'POCUS Tools',
+                          title: 'Bedside Ultrasound',
                           body:
-                              'Focused ultrasound tools built for physicians working in emergency and acute care settings.',
+                              'Focused on point-of-care ultrasound use in emergency departments and other acute care settings.',
                           icon: Icons.monitor_heart_outlined,
                         ),
                         SizedBox(height: 18),
                         _HighlightCard(
                           title: 'Clinical Decision Support',
                           body:
-                              'Structured digital support for consistent bedside workflows, documentation and interpretation.',
+                              'Structured support for documentation, interpretation and more consistent bedside workflows.',
                           icon: Icons.rule_folder_outlined,
                         ),
                       ],
@@ -376,16 +376,16 @@ class _HomePage extends StatelessWidget {
                   _HeroContent(),
                   SizedBox(height: 18),
                   _HighlightCard(
-                    title: 'POCUS Tools',
+                    title: 'Bedside Ultrasound',
                     body:
-                        'Focused ultrasound tools built for physicians working in emergency and acute care settings.',
+                        'Focused on point-of-care ultrasound use in emergency departments and other acute care settings.',
                     icon: Icons.monitor_heart_outlined,
                   ),
                   SizedBox(height: 18),
                   _HighlightCard(
                     title: 'Clinical Decision Support',
                     body:
-                        'Structured digital support for consistent bedside workflows, documentation and interpretation.',
+                        'Structured support for documentation, interpretation and more consistent bedside workflows.',
                     icon: Icons.rule_folder_outlined,
                   ),
                 ],
@@ -394,44 +394,50 @@ class _HomePage extends StatelessWidget {
         wide
             ? const Row(
                 children: [
-                  Expanded(child: _ScreenshotPlaceholder()),
+                  Expanded(child: _CompanyStatementPanel()),
                   SizedBox(width: 18),
-                  Expanded(child: _LogoShowcase()),
+                  Expanded(child: _CredibilityPanel()),
                 ],
               )
             : const Column(
                 children: [
-                  _ScreenshotPlaceholder(),
+                  _CompanyStatementPanel(),
                   SizedBox(height: 18),
-                  _LogoShowcase(),
+                  _CredibilityPanel(),
                 ],
               ),
         const SizedBox(height: 28),
         const _SectionIntro(
-          eyebrow: 'What SonoNordic Builds',
-          title: 'Tools designed for bedside speed and clinical clarity.',
+          eyebrow: 'Coming Soon',
+          title: 'Focused areas under development.',
           body:
-              'SonoNordic develops point-of-care ultrasound tools, educational resources and clinical decision support solutions for physicians working in emergency and acute care settings.',
+              'SonoNordic is focused on practical tools and resources that support ultrasound use in acute care without adding complexity to bedside work.',
         ),
         const SizedBox(height: 18),
         _ResponsiveCardGrid(
           items: const [
             _InfoTileData(
-              title: 'Emergency Medicine Focus',
+              title: 'Clinical Ultrasound Tools',
               body:
-                  'Built around rapid workflows relevant to shock, dyspnea, trauma, vascular access and acute diagnostics.',
+                  'Practical digital support for common bedside ultrasound workflows in emergency and acute care.',
               icon: Icons.local_hospital_outlined,
             ),
             _InfoTileData(
-              title: 'Education',
+              title: 'Educational Resources',
               body:
-                  'Bedside-oriented explanations and troubleshooting content designed to support training and refreshers.',
+                  'Concise, bedside-oriented educational material intended to support pattern recognition and practical use.',
               icon: Icons.school_outlined,
             ),
             _InfoTileData(
-              title: 'Scalable Platform',
+              title: 'Decision Support',
               body:
-                  'A web presence and digital products that can be expanded with product pages, screenshots and company updates later.',
+                  'Structured support for more consistent interpretation, documentation and bedside decision processes.',
+              icon: Icons.fact_check_outlined,
+            ),
+            _InfoTileData(
+              title: 'Workflow Standardization',
+              body:
+                  'Tools designed to reduce friction and support simpler, more consistent clinical workflows.',
               icon: Icons.devices_outlined,
             ),
           ],
@@ -498,7 +504,7 @@ class _HeroContent extends StatelessWidget {
                     ),
                   ),
                   child: const Text(
-                    'Clinical ultrasound solutions for healthcare professionals',
+                    'Point-of-care ultrasound for acute care physicians',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 13,
@@ -516,7 +522,7 @@ class _HeroContent extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           const Text(
-            'SonoNordic develops POCUS tools for emergency and acute care.',
+            'Practical bedside ultrasound support for acute care.',
             style: TextStyle(
               color: Colors.white,
               fontSize: 42,
@@ -526,7 +532,7 @@ class _HeroContent extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           const Text(
-            'Digital products, educational resources and clinical decision support designed to fit real bedside workflows for physicians working under time pressure.',
+            'SonoNordic AB is a Swedish medical technology company focused on point-of-care ultrasound, clinical decision support and workflow efficiency for physicians working in emergency and acute care settings.',
             style: TextStyle(
               color: _textMuted,
               fontSize: 17,
@@ -540,24 +546,8 @@ class _HeroContent extends StatelessWidget {
             children: const [
               _MetricChip(label: 'POCUS'),
               _MetricChip(label: 'Emergency Medicine'),
-              _MetricChip(label: 'Clinical Decision Support'),
+              _MetricChip(label: 'Workflow Efficiency'),
             ],
-          ),
-          const SizedBox(height: 24),
-          FilledButton.icon(
-            onPressed: null,
-            style: FilledButton.styleFrom(
-              backgroundColor: _accent,
-              disabledBackgroundColor: _accent,
-              foregroundColor: Colors.white,
-              padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 18),
-              textStyle: const TextStyle(
-                fontSize: 15,
-                fontWeight: FontWeight.w700,
-              ),
-            ),
-            icon: const Icon(Icons.arrow_forward_rounded),
-            label: const Text('Learn More'),
           ),
         ],
       ),
@@ -575,9 +565,9 @@ class _AboutPage extends StatelessWidget {
       children: [
         const _SectionIntro(
           eyebrow: 'About SonoNordic',
-          title: 'Focused on practical ultrasound use in acute care.',
+          title: 'A Swedish company built around practical clinical use.',
           body:
-              'SonoNordic AB is a Swedish company focused on point-of-care ultrasound, acute care workflows, physician education and clinically useful digital support.',
+              'SonoNordic AB is a Swedish company focused on emergency medicine, point-of-care ultrasound and physician-centered clinical workflows.',
         ),
         const SizedBox(height: 18),
         _ResponsiveCardGrid(
@@ -585,13 +575,13 @@ class _AboutPage extends StatelessWidget {
             _InfoTileData(
               title: 'Founded in Sweden',
               body:
-                  'A Nordic company with a clear focus on clinical usability, simplicity and credibility in healthcare settings.',
+                  'SonoNordic is based in Sweden and developed with a clear healthcare focus.',
               icon: Icons.flag_outlined,
             ),
             _InfoTileData(
               title: 'POCUS Focus',
               body:
-                  'Dedicated to point-of-care ultrasound solutions relevant to frontline physicians and bedside decision making.',
+                  'Dedicated to point-of-care ultrasound use relevant to bedside assessment and acute decision making.',
               icon: Icons.monitor_heart_outlined,
             ),
             _InfoTileData(
@@ -601,15 +591,15 @@ class _AboutPage extends StatelessWidget {
               icon: Icons.bolt_outlined,
             ),
             _InfoTileData(
-              title: 'Education',
+              title: 'Clinical Workflows',
               body:
-                  'Supports learning, troubleshooting and structured interpretation in a format that can grow over time.',
+                  'Focused on practical workflows that fit real bedside work rather than abstract reference material.',
               icon: Icons.menu_book_outlined,
             ),
             _InfoTileData(
-              title: 'Clinical Support',
+              title: 'Physician-Centered Development',
               body:
-                  'Works toward practical tools that can help standardize documentation and reinforce pattern recognition.',
+                  'Developed around the needs of physicians who use ultrasound in time-sensitive clinical settings.',
               icon: Icons.fact_check_outlined,
             ),
           ],
@@ -629,8 +619,9 @@ class _SupportPage extends StatelessWidget {
       children: [
         const _SectionIntro(
           eyebrow: 'Support',
-          title: 'Contact SonoNordic support',
-          body: 'For support regarding SonoNordic products, please contact us by email.',
+          title: 'Practical support for SonoNordic services',
+          body:
+              'For questions related to the SonoNordic website and company services, please contact us by email.',
         ),
         const SizedBox(height: 18),
         Container(
@@ -645,6 +636,11 @@ class _SupportPage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               _SupportRow(
+                title: 'Company',
+                value: 'SonoNordic AB',
+              ),
+              SizedBox(height: 18),
+              _SupportRow(
                 title: 'Email',
                 value: 'info@sononordic.se',
               ),
@@ -652,6 +648,12 @@ class _SupportPage extends StatelessWidget {
               _SupportRow(
                 title: 'Response time',
                 value: '1-3 business days',
+              ),
+              SizedBox(height: 18),
+              _SupportRow(
+                title: 'Support scope',
+                value:
+                    'General contact, website-related questions and company information.',
               ),
             ],
           ),
@@ -671,7 +673,7 @@ class _PrivacyPage extends StatelessWidget {
       children: [
         const _SectionIntro(
           eyebrow: 'Privacy Policy',
-          title: 'Simple privacy information for the website and app.',
+          title: 'Privacy information for the website and application.',
           body: 'Last updated: June 2026',
         ),
         const SizedBox(height: 18),
@@ -686,20 +688,39 @@ class _PrivacyPage extends StatelessWidget {
           child: const Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              _PrivacyParagraph(
-                text: 'SonoNordic AB respects your privacy.',
+              _PrivacySection(
+                title: 'Introduction',
+                body:
+                    'SonoNordic AB respects your privacy and aims to keep this website and related information services simple and transparent.',
               ),
               SizedBox(height: 16),
-              _PrivacyParagraph(
-                text: 'The website does not collect personal information.',
+              _PrivacySection(
+                title: 'Data Collection',
+                body:
+                    'This website does not collect personal data from visitors through forms, accounts or tracking features operated by SonoNordic AB.',
               ),
               SizedBox(height: 16),
-              _PrivacyParagraph(
-                text: 'The POCUS application processes no patient data.',
+              _PrivacySection(
+                title: 'Data Storage',
+                body:
+                    'SonoNordic AB does not store personal information through this website. The application does not process patient data.',
               ),
               SizedBox(height: 16),
-              _PrivacyParagraph(
-                text: 'For questions contact: info@sononordic.se',
+              _PrivacySection(
+                title: 'Third Party Services',
+                body:
+                    'Basic technical website delivery may involve third-party hosting or infrastructure services. No additional third-party data processing is intended through normal website use.',
+              ),
+              SizedBox(height: 16),
+              _PrivacySection(
+                title: 'User Rights',
+                body:
+                    'If you have questions about privacy or your rights under applicable data protection law, you may contact SonoNordic AB for further information.',
+              ),
+              SizedBox(height: 16),
+              _PrivacySection(
+                title: 'Contact Information',
+                body: 'SonoNordic AB\nSweden\ninfo@sononordic.se',
               ),
             ],
           ),
@@ -850,29 +871,29 @@ class _MetricChip extends StatelessWidget {
   }
 }
 
-class _ScreenshotPlaceholder extends StatelessWidget {
-  const _ScreenshotPlaceholder();
+class _CompanyStatementPanel extends StatelessWidget {
+  const _CompanyStatementPanel();
 
   @override
   Widget build(BuildContext context) {
     return _PlaceholderPanel(
-      title: 'App Screenshot Placeholder',
+      title: 'Built for practical bedside ultrasound.',
       body:
-          'Replace this area with product screenshots, device mockups or a product gallery when ready.',
+          'SonoNordic focuses on improving ultrasound usability, workflow consistency and clinical efficiency for physicians working in acute care.',
       icon: Icons.phone_iphone_rounded,
     );
   }
 }
 
-class _LogoShowcase extends StatelessWidget {
-  const _LogoShowcase();
+class _CredibilityPanel extends StatelessWidget {
+  const _CredibilityPanel();
 
   @override
   Widget build(BuildContext context) {
     return _PlaceholderPanel(
-      title: 'SonoNordic Brand',
+      title: 'Designed for bedside use',
       body:
-          'Current company logo integrated from the existing asset library and ready to be replaced or refined later if needed.',
+          'Physician-centered design, practical emergency medicine workflows, and a consistent interface built around clinical clarity.',
       child: Padding(
         padding: const EdgeInsets.all(8),
         child: Image.asset(
@@ -1087,21 +1108,89 @@ class _SupportRow extends StatelessWidget {
   }
 }
 
-class _PrivacyParagraph extends StatelessWidget {
-  final String text;
+class _PrivacySection extends StatelessWidget {
+  final String title;
+  final String body;
 
-  const _PrivacyParagraph({
-    required this.text,
+  const _PrivacySection({
+    required this.title,
+    required this.body,
   });
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      text,
-      style: const TextStyle(
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          title,
+          style: const TextStyle(
+            color: Colors.white,
+            fontSize: 18,
+            fontWeight: FontWeight.w700,
+          ),
+        ),
+        const SizedBox(height: 8),
+        Text(
+          body,
+          style: const TextStyle(
+            color: _textMuted,
+            fontSize: 16,
+            height: 1.6,
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class _FooterItem extends StatelessWidget {
+  final String label;
+  final String value;
+
+  const _FooterItem({
+    required this.label,
+    required this.value,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          label,
+          style: const TextStyle(
+            color: _accentSoft,
+            fontSize: 12,
+            fontWeight: FontWeight.w700,
+          ),
+        ),
+        const SizedBox(height: 6),
+        Text(
+          value,
+          style: const TextStyle(
+            color: Colors.white,
+            fontSize: 15,
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class _FooterCopyright extends StatelessWidget {
+  const _FooterCopyright();
+
+  @override
+  Widget build(BuildContext context) {
+    return const Text(
+      '© 2026 SonoNordic AB',
+      style: TextStyle(
         color: _textMuted,
-        fontSize: 16,
-        height: 1.6,
+        fontSize: 14,
+        fontWeight: FontWeight.w500,
       ),
     );
   }
@@ -1120,34 +1209,29 @@ class _SiteFooter extends StatelessWidget {
         borderRadius: BorderRadius.circular(24),
         border: Border.all(color: Colors.white12),
       ),
-      child: const Wrap(
-        alignment: WrapAlignment.spaceBetween,
-        runSpacing: 10,
+      child: const Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            'SonoNordic AB',
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 16,
-              fontWeight: FontWeight.w700,
-            ),
+          Wrap(
+            spacing: 28,
+            runSpacing: 18,
+            children: [
+              _FooterItem(
+                label: 'Company',
+                value: 'SonoNordic AB',
+              ),
+              _FooterItem(
+                label: 'Location',
+                value: 'Sweden',
+              ),
+              _FooterItem(
+                label: 'Contact',
+                value: 'info@sononordic.se',
+              ),
+            ],
           ),
-          Text(
-            'info@sononordic.se',
-            style: TextStyle(
-              color: _textMuted,
-              fontSize: 14,
-              fontWeight: FontWeight.w500,
-            ),
-          ),
-          Text(
-            '© 2026 SonoNordic AB',
-            style: TextStyle(
-              color: _textMuted,
-              fontSize: 14,
-              fontWeight: FontWeight.w500,
-            ),
-          ),
+          SizedBox(height: 18),
+          _FooterCopyright(),
         ],
       ),
     );
