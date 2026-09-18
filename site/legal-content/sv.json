@@ -1,0 +1,77 @@
+{
+  "home": "Till SonoNordic",
+  "language": "Språk",
+  "privacyTitle": "Integritet",
+  "termsTitle": "Användnings- och prenumerationsvillkor",
+  "skip": "Hoppa till innehållet",
+  "date": "Uppdaterad 18 september 2026",
+  "notice": "Informationen gäller AkutPOCUS App. Abonnemang kan endast köpas när de är tillgängliga i appen.",
+  "privacy": [
+    [
+      "Ansvarig och kontakt",
+      "SonoNordic AB, organisationsnummer 559586-5816, Åbroddsvägen 31D, 132 37 Saltsjö-Boo, Sverige, är personuppgiftsansvarig för behandlingen som beskrivs här. Kontakt: info@sononordic.se. Informationen gäller AkutPOCUS App, inte webbplatsen eller AkutPOCUS Clinical."
+    ],
+    [
+      "Uppgifter i appen",
+      "AkutPOCUS är en utbildnings- och referensapp för vårdpersonal och läkarstudenter. Den har inget separat användarkonto, ingen reklam och inga formulär för patientuppgifter. Den tar inte emot patientbilder, mätningar eller undersökningsfynd. Språk och bekräftelse på läst appinformation sparas lokalt. Senast verifierad åtkomst, slutdatum, tekniskt användar-ID och tidsuppgifter sparas på enheten för offlineåtkomst och kontroll av giltighet. Avinstallation tar inte nödvändigtvis bort alla uppgifter på alla plattformar."
+    ],
+    [
+      "Köp och åtkomst",
+      "Apple App Store eller Google Play hanterar betalningen. Appen lämnar inte ditt kortnummer till SonoNordic. RevenueCat kontrollerar köp och åtkomst med ett tekniskt användar-ID, köpstatus, produkt- och transaktionsuppgifter, kvitto eller köptoken, slutdatum och tekniska uppgifter om appen, systemet och kontakt med tjänsten. ID:t visas också som support-ID. Åtkomstkontrollen startar när appen öppnas och kan kontakta RevenueCat även för gratisanvändare. Integrationen skickar inte en förteckning över vilka kunskapssidor eller medier du öppnar. Annonsidentifierare och separat diagnostikinsamling är inte aktiverade i appens konfiguration. RevenueCat ger översikter över prenumerationer och intäkter. Om du skickar ditt support-ID till oss kan det kopplas till ditt ärende och är därför inte helt anonymt. Nätverkskommunikationen innebär också behandling av IP-adress."
+    ],
+    [
+      "E-post och plattformsrapporter",
+      "När du kontaktar oss behandlar vi avsändaradress, meddelande och uppgifter du själv lämnar, exempelvis support-ID och appversion. E-post till info@sononordic.se tas emot och lagras hos Loopia och vidarebefordras till företagets kostnadsfria Gmail-konto. Skicka endast nödvändiga uppgifter, aldrig identifierbara patientuppgifter. Google behandlar Gmail-data enligt sina egna konsumentvillkor och sin integritetspolicy och agerar inte som vårt personuppgiftsbiträde för denna tjänst. Apple och Google kan också tillhandahålla plattformarnas användnings- och felrapporter beroende på användarinställningar. Appen har ingen separat tjänst för allmän användningsanalys eller kraschrapportering."
+    ],
+    [
+      "Ändamål och rättslig grund",
+      "Uppgifter används för att leverera och återställa avtalad åtkomst, ge nödvändig support och administrera prenumerationen med stöd av avtal, GDPR artikel 6.1 b. Driftsäkerhet, förebyggande av missbruk, allmän support och övergripande uppföljning av tjänsten bygger på berättigade intressen, artikel 6.1 f. Intresset är att driva en tillförlitlig tjänst och hantera ärenden med begränsad dataanvändning. Du kan invända mot sådan behandling. Om en viss lag kräver lagring används artikel 6.1 c."
+    ],
+    [
+      "Leverantörer och överföringar",
+      "RevenueCat behandlar prenumerationsdata för vår räkning. Loopia behandlar e-post enligt sitt avtalsverk. Apple, Google Play och kostnadsfria Gmail behandlar också uppgifter enligt sina egna plattformsvillkor. Leverantörer kan behandla data utanför EES, bland annat i USA. RevenueCats och Loopias biträdesavtal beskriver relevanta överföringsmekanismer, inklusive standardavtalsklausuler. För kostnadsfria Gmail gäller Googles egen integritetspolicy och överföringsgrunder, inte ett biträdesavtal med SonoNordic. Kontakta oss för information om skyddsåtgärder och kopior där det är aktuellt. Leverantörslänkar finns nedan."
+    ],
+    [
+      "Lagring och radering",
+      "Den valda lagringsregeln för RevenueCat är aktiv åtkomst plus tolv månader efter att den senaste åtkomstperioden löpt ut. Profiler som aldrig haft köpt eller tilldelad åtkomst har en vald frist på tolv månader från senaste registrerade kontakt med tjänsten; enbart offlineanvändning syns inte. Raderingsfrister planeras vid veckovis manuell genomgång i RevenueCat, med radering när fristen löper ut. Oklara fall utreds separat. Nödvändiga uppgifter för en konkret tvist eller rättslig skyldighet kan sparas längre för det avgränsade ändamålet. Lokala värden ersätts när appen sparar nya värden. Radering hos oss tar inte automatiskt bort butikens egna uppgifter. Uppgiven supportrutin är att radera färdigbehandlade ärenden hos både Loopia och Gmail. Gmail raderar normalt från papperskorgen efter 30 dagar. Loopia anger normalt e-postbackup i upp till 21 dagar, med några extra dagar när hela brevlådan tas bort. Detta innebär inte omedelbar radering av alla kopior."
+    ],
+    [
+      "Dina rättigheter",
+      "Kontakta info@sononordic.se för tillgång, rättelse, radering eller begränsning. När villkoren är uppfyllda har du också rätt till dataportabilitet och att invända mot behandling med stöd av berättigade intressen. Ange gärna support-ID; vi begär endast nödvändig identitetskontroll. Du kan klaga till IMY i Sverige eller tillsynsmyndigheten där du bor. Radering av data säger inte upp en butiksprenumeration. Fortsatt användning eller återställning av köp kan skapa nya åtkomstuppgifter. Informationen uppdateras när behandlingen ändras; väsentliga ändringar tydliggörs innan de börjar gälla."
+    ]
+  ],
+  "terms": [
+    [
+      "Leverantör och innehåll",
+      "Leverantör är SonoNordic AB, organisationsnummer 559586-5816, Åbroddsvägen 31D, 132 37 Saltsjö-Boo, Sverige. Kontakt: info@sononordic.se. AkutPOCUS är en utbildnings- och referensapp för vårdpersonal och läkarstudenter. Den visar allmänt innehåll, registrerar inte patientuppgifter och ger inte patientanpassade diagnoser eller behandlingsrekommendationer. Appen ersätter inte utbildning, lokala rutiner eller självständig klinisk bedömning."
+    ],
+    [
+      "Gratis och full åtkomst",
+      "Hela eFAST, organområdet lungor och thorax med lungfynd samt artärnål är gratis. BLUE-protokollet och övriga betalområden kräver full åtkomst. Månad och år ger samma innehåll. Appinformation, integritet, villkor, support och återställning av köp kräver ingen prenumeration."
+    ],
+    [
+      "Pris och betalning",
+      "Svenskt grundpris är 49 SEK per månad eller 399 SEK per år. Årspriset betalas i sin helhet. Pris, valuta och skatter i butikens köpbekräftelse gäller för ditt köp; andra marknader kan ha andra priser. Betalning sker genom Apple App Store eller Google Play och kopplas till butikskontot. Ingen provperiod gäller om den inte uttryckligen erbjuds vid köpet."
+    ],
+    [
+      "Automatisk förnyelse och uppsägning",
+      "Prenumerationen förnyas automatiskt med en månad eller ett år om du inte stänger av förnyelsen i Apple- eller Google-kontot. Följ butikens tidsfrist; vi rekommenderar att stänga av förnyelsen minst 24 timmar före periodens slut. Vid vanlig uppsägning behåller du åtkomst under den betalda perioden. Uppsägning ger inte i sig återbetalning för återstående tid, men lagstadgade rättigheter gäller. Avinstallation eller radering av data säger inte upp prenumerationen. Prisändringar meddelas och kräver samtycke där reglerna kräver det; de ändrar inte retroaktivt en redan betald period."
+    ],
+    [
+      "Åtkomst utan internet",
+      "Efter kontroll med internet kan du använda lagrat innehåll fram till faktiskt verifierat slutdatum, även för en hel årsprenumeration. Nätverksfel tar inte i sig bort en giltig lagrad period. Förnyelse, återställning och rättelse av ogiltig lokal status kan kräva internet. Efter utgång utan verifierad förnyelse måste åtkomsten verifieras igen. Gratisområdena förblir tillgängliga. Återbetalning eller återkallelse kan avsluta åtkomst när status uppdateras. Ändring av enhetens klocka kan utlösa en ny kontroll."
+    ],
+    [
+      "Återställning och ambassadörsåtkomst",
+      "Använd Återställ köp med samma butikskonto som vid köpet. Det finns ingen SonoNordic-inloggning eller utlovad automatisk överföring mellan Apple och Google. Kontakta oss vid problem. Ambassadörsåtkomst tilldelas ett år i taget med möjlighet till förlängning, löper ut på avtalat datum och blir inte automatiskt betald. Telefonbyte eller ominstallation kräver manuell hjälp för sådan åtkomst; ange support-ID."
+    ],
+    [
+      "Ångerrätt, fel och återbetalning",
+      "Tvingande konsumenträttigheter gäller. Eventuellt bortfall av ångerrätt när digital leverans startar beror på lagens villkor samt uttryckliga samtycken och bekräftelser vid köpet. Att bara öppna appen eller läsa villkoren är inte ett sådant samtycke. Du kan begära återbetalning genom butiken eller kontakta SonoNordic om fel och krav. Ange gärna appversion och en kort felbeskrivning utan patientuppgifter. Butikens process begränsar inte lagstadgade krav. Vid olöst tvist kan ARN i Sverige eller relevant lokal klagomålsordning vara aktuell."
+    ],
+    [
+      "Rättigheter och uppdateringar",
+      "Åtkomst ger rätt att använda innehållet i appen, inte att sälja vidare eller återpublicera det utan rättighetshavarens tillstånd, med lagens undantag. Vi kan rätta och uppdatera appen. Väsentliga ändringar hanteras med information och lagstadgade rättigheter. Håll appen uppdaterad för rättelser; offlineinnehåll uppdateras inte av sig självt. Villkoren begränsar inte ansvar som inte lagligen kan avtalas bort. Behandling av uppgifter beskrivs på integritetssidan."
+    ]
+  ]
+}
