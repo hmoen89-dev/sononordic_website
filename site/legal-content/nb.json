@@ -20,6 +20,10 @@
       "Apple App Store eller Google Play håndterer betalingen. Appen gir ikke SonoNordic kortnummer. RevenueCat kontrollerer kjøp og tilgang ved hjelp av en teknisk bruker-ID, kjøpsstatus, produkt- og transaksjonsopplysninger, kjøpsbevis eller token, utløpsdato og tekniske opplysninger om app, system og kontakt med tjenesten. ID-en vises også som support-ID. Tilgangskontrollen starter ved appoppstart og kan kontakte RevenueCat også for gratisbrukere. Denne integrasjonen sender ikke en oversikt over hvilke faglige sider eller medier du åpner. Annonseidentifikatorer og separat diagnostikkinnsamling er ikke aktivert i appens oppsett. RevenueCat gir oversikt over abonnementer og omsetning. Sender du support-ID til oss, kan den knyttes til henvendelsen og er derfor ikke fullstendig anonym. Nettverkskommunikasjonen innebærer også behandling av IP-adresse."
     ],
     [
+      "Tilgang for butikkontrollører",
+      "Ved bruk av en særskilt kode for butikkontroll sendes koden og appens tekniske support-ID til vår tilgangstjeneste hos Cloudflare. Cloudflare behandler også forbindelsens IP-adresse. Dette brukes til å gi kontrolløren tilgang og forebygge misbruk, ikke som en alternativ betalingsmåte. Tjenesten lagrer kodens kryptografiske avtrykk, support-ID, utløp og tilbakekallingsstatus. En bekreftet periode varer inntil 24 timer. Leveringsposter fjernes 30 dager etter utløp. Begrensning av antall forsøk bruker et nøkkelkodet IP-avtrykk; utløpte telleposter ryddes normalt innen syv minutter. Tjenesten logger ikke koder eller forespørselsinnhold. Cloudflares egne drifts- og sikkerhetsopplysninger og sikkerhetskopier omfattes av leverandørens regler. Cloudflare behandler opplysninger på våre vegne under sin databehandleravtale. Behandling kan foregå utenfor EØS; avtalen beskriver relevante overføringsmekanismer, blant annet EUs standard personvernbestemmelser. RevenueCats oppbevaringstid nedenfor gjelder fortsatt for tilgangshistorikken."
+    ],
+    [
       "E-post og plattformrapporter",
       "Ved kontakt behandler vi avsenderadresse, meldingsinnhold og opplysningene du selv gir, for eksempel support-ID og appversjon. E-post til info@sononordic.se mottas og lagres hos Loopia og videresendes til firmaets gratis Gmail-konto. Send bare nødvendige opplysninger, aldri identifiserbare pasientopplysninger. Google behandler Gmail-data etter sine egne forbrukervilkår og sin personvernerklæring, og opptrer ikke som vår databehandler for denne tjenesten. Apple og Google kan også gjøre plattformenes bruks- og feilrapporter tilgjengelige, avhengig av brukerinnstillinger. Appen har ingen separat generell bruksanalyse- eller krasjrapporteringstjeneste."
     ],
@@ -73,5 +77,6 @@
       "Rettigheter og oppdateringer",
       "Tilgang gir rett til å bruke innholdet i appen, ikke videreselge eller republisere det uten rettighetshaverens tillatelse, med lovens unntak. Vi kan rette og oppdatere appen. Vesentlige endringer håndteres med informasjon og lovfestede rettigheter. Hold appen oppdatert for rettelser; offlineinnhold oppdateres ikke av seg selv. Vilkårene begrenser ikke ansvar som ikke lovlig kan fravikes. Behandling av opplysninger er beskrevet på personvernsiden."
     ]
-  ]
+  ],
+  "privacyDate": "Oppdatert 21. september 2026"
 }

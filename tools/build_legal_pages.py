@@ -42,6 +42,7 @@ for lang in LANGUAGES:
         if kind == 'privacy':
             providers = '''<div class="providers">
 <a href="https://www.revenuecat.com/dpa">RevenueCat</a>
+<a href="https://www.cloudflare.com/cloudflare-customer-dpa/">Cloudflare</a>
 <a href="https://www.loopia.se/om-loopia/dataskydd/">Loopia</a>
 <a href="https://policies.google.com/privacy">Google</a>
 <a href="https://www.apple.com/legal/privacy/">Apple</a>
@@ -54,7 +55,7 @@ for lang in LANGUAGES:
 <header><div class="top"><a class="brand" href="./?lang={home_lang}"><img src="logo.png" alt="">SonoNordic <small>AB</small></a>
 <a class="home" href="./?lang={home_lang}">{esc(data['home'])} ↗</a></div></header>
 <main id="main"><div class="intro"><p class="eyebrow">AkutPOCUS App</p><h1>{esc(title)}</h1>
-<p class="date">{esc(data['date'])}</p><nav class="languages" aria-label="{esc(data['language'])}">{nav}</nav>
+<p class="date">{esc(data.get(kind + 'Date', data['date']))}</p><nav class="languages" aria-label="{esc(data['language'])}">{nav}</nav>
 <p class="notice">{esc(data['notice'])}</p></div>
 <div class="layout"><nav class="contents" aria-label="{esc(title)}">{contents}</nav>
 <article>{sections}{providers}<a class="sibling" href="{filename(sibling, lang)}">{esc(data[sibling+'Title'])} →</a></article></div></main>
