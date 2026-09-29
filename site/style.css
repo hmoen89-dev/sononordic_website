@@ -28,3 +28,5 @@ footer{background:#dfe5e9}
 .product-top{justify-content:flex-end}
 
 .company-number{display:block;font-size:12px;margin-top:3px}.draft-note{padding:16px 20px;background:#f5e8ed;border-left:3px solid var(--wine);font-size:15px}.languages button{min-width:36px;min-height:40px}
+
+.store-links{margin:4px 0 24px}.store-links p{margin:12px 0 0;font-size:14px;color:var(--muted)}
