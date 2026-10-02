@@ -14,10 +14,10 @@ Publication approved by the owner on 18 September 2026. The app-specific pages a
 
 The pages work without JavaScript and retain `noindex` during launch preparation. Retention is handled manually in RevenueCat with weekly planning and deletion when due. The selected Loopia/free Gmail setup is described explicitly; consumer Gmail is not described as a processor under a SonoNordic DPA. Existing website and Clinical privacy information is separate.
 
-## AKUTSTART launch campaign
+## Privately shared launch campaign
 
-The home page links to both stores. Campaign instructions share the same 14-day monthly-subscription offer in Swedish, Norwegian, Danish and English. Regenerate `site/akutpocus-offer*.html` with `python3 tools/build_offer_pages.py`.
+The home page links to both stores without advertising a campaign. Campaign codes are shared directly in messages and at talks, never embedded in public pages, metadata, scripts or redemption URLs. The code-free instructions explain the 14-day monthly-subscription offer in Swedish, Norwegian, Danish and English. Regenerate `site/akutpocus-offer*.html` with `python3 tools/build_offer_pages.py`.
 
-Campaign redemption deadline: 31 October 2026. Apple has 500 possible redemptions; Google Play requires a minimum of 2,000. Both renew at the store's monthly price after the free period unless cancelled. Remove or replace the homepage campaign when it ends; do not reuse a Google custom code for a new campaign.
+Campaign redemption deadline: 31 October 2026. Apple has 500 possible redemptions; Google Play requires a minimum of 2,000. Both renew at the store's monthly price after the free period unless cancelled. Update the instruction terms when the campaign ends; do not reuse a Google custom code for a new campaign.
 
 Ambassador invitations are separate: Apple offers six months without automatic renewal; Google Play offers 90 days with automatic monthly renewal unless the recipient cancels. Code values remain private and are not stored in this repository.
