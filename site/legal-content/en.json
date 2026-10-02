@@ -67,7 +67,7 @@
     ],
     [
       "Restoring purchases and ambassador access",
-      "Use Restore purchases with the same store account used for purchase. There is no SonoNordic login or promised automatic transfer between Apple and Google. Contact us if you have problems. Ambassador access is granted for one year at a time, may be extended, expires on the agreed date and does not automatically become paid access. Changing phones or reinstalling requires manual assistance for these grants; provide your support ID."
+      "Use Restore purchases with the same store account used for purchase. There is no SonoNordic login or promised automatic transfer between Apple and Google. Ambassador access follows the period and conditions in your invitation. Apple ambassador codes provide six months free without automatic renewal. Google Play ambassador codes provide a 90-day free trial of the monthly subscription, followed by automatic paid renewal unless you cancel in Google Play before renewal; a valid payment method is required. We recommend turning off renewal after redemption if you only want the free period. Manually granted access expires on the agreed date and does not automatically become paid access. Changing phones or reinstalling may require manual assistance for these grants; provide your support ID. Previously agreed access periods remain unchanged."
     ],
     [
       "Withdrawal, faults and refunds",
@@ -78,5 +78,6 @@
       "Access lets you use the content in the app, not resell or republish it without the rights holder's permission, subject to legal exceptions. We may correct and update the app. Material changes are handled with information and statutory rights. Keep the app updated to receive corrections; offline content does not update itself. These terms do not limit liability that cannot lawfully be excluded. Information processing is described on the privacy page."
     ]
   ],
-  "privacyDate": "Updated 21 September 2026"
+  "privacyDate": "Updated 21 September 2026",
+  "termsDate": "Updated 2 October 2026"
 }

@@ -67,7 +67,7 @@
     ],
     [
       "Gendannelse og ambassadøradgang",
-      "Brug Gendan køb med samme butikskonto som ved købet. Der findes intet SonoNordic-login eller løfte om automatisk overførsel mellem Apple og Google. Kontakt os ved problemer. Ambassadøradgang tildeles ét år ad gangen med mulighed for forlængelse, udløber på den aftalte dato og bliver ikke automatisk betalt. Telefonskift eller geninstallation kræver manuel hjælp til denne adgang; oplys support-ID."
+      "Brug Gendan køb med samme butikskonto som ved købet. Der findes intet SonoNordic-login eller løfte om automatisk overførsel mellem Apple og Google. Ambassadøradgang følger perioden og vilkårene i din invitation. Apples ambassadørkoder giver seks måneder gratis uden automatisk fornyelse. Google Plays ambassadørkoder giver 90 dages gratis prøveperiode på månedsabonnementet, efterfulgt af automatisk betalt fornyelse, medmindre du opsiger i Google Play før fornyelsen; en gyldig betalingsmetode kræves. Vi anbefaler, at du slår fornyelsen fra efter indløsning, hvis du kun ønsker gratisperioden. Manuelt tildelt adgang udløber på den aftalte dato og bliver ikke automatisk betalt. Telefonskift eller geninstallation kan kræve manuel hjælp til sådanne tildelinger; oplys support-ID. Tidligere aftalte adgangsperioder ændres ikke."
     ],
     [
       "Fortrydelse, fejl og tilbagebetaling",
@@ -78,5 +78,6 @@
       "Adgang giver ret til at bruge indholdet i appen, ikke at videresælge eller genudgive det uden rettighedshaverens tilladelse, med lovens undtagelser. Vi kan rette og opdatere appen. Væsentlige ændringer håndteres med information og lovbestemte rettigheder. Hold appen opdateret for rettelser; offlineindhold opdateres ikke af sig selv. Vilkårene begrænser ikke ansvar, som ikke lovligt kan fraviges. Behandling af oplysninger beskrives på privatlivssiden."
     ]
   ],
-  "privacyDate": "Opdateret 21. september 2026"
+  "privacyDate": "Opdateret 21. september 2026",
+  "termsDate": "Opdateret 2. oktober 2026"
 }

@@ -67,7 +67,7 @@
     ],
     [
       "Återställning och ambassadörsåtkomst",
-      "Använd Återställ köp med samma butikskonto som vid köpet. Det finns ingen SonoNordic-inloggning eller utlovad automatisk överföring mellan Apple och Google. Kontakta oss vid problem. Ambassadörsåtkomst tilldelas ett år i taget med möjlighet till förlängning, löper ut på avtalat datum och blir inte automatiskt betald. Telefonbyte eller ominstallation kräver manuell hjälp för sådan åtkomst; ange support-ID."
+      "Använd Återställ köp med samma butikskonto som vid köpet. Det finns ingen SonoNordic-inloggning eller utlovad automatisk överföring mellan Apple och Google. Ambassadörsåtkomst följer perioden och villkoren i din inbjudan. Apples ambassadörskoder ger sex månader gratis utan automatisk förnyelse. Google Plays ambassadörskoder ger 90 dagars gratis provperiod på månadsprenumerationen, följt av automatisk betald förnyelse om du inte säger upp i Google Play före förnyelsen; en giltig betalningsmetod krävs. Vi rekommenderar att du stänger av förnyelsen efter inlösen om du bara vill ha gratisperioden. Manuellt tilldelad åtkomst löper ut på avtalat datum och blir inte automatiskt betald. Telefonbyte eller ominstallation kan kräva manuell hjälp för sådana tilldelningar; ange support-ID. Tidigare avtalade åtkomstperioder ändras inte."
     ],
     [
       "Ångerrätt, fel och återbetalning",
@@ -78,5 +78,6 @@
       "Åtkomst ger rätt att använda innehållet i appen, inte att sälja vidare eller återpublicera det utan rättighetshavarens tillstånd, med lagens undantag. Vi kan rätta och uppdatera appen. Väsentliga ändringar hanteras med information och lagstadgade rättigheter. Håll appen uppdaterad för rättelser; offlineinnehåll uppdateras inte av sig självt. Villkoren begränsar inte ansvar som inte lagligen kan avtalas bort. Behandling av uppgifter beskrivs på integritetssidan."
     ]
   ],
-  "privacyDate": "Uppdaterad 21 september 2026"
+  "privacyDate": "Uppdaterad 21 september 2026",
+  "termsDate": "Uppdaterad 2 oktober 2026"
 }
