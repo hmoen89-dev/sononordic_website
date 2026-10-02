@@ -60,6 +60,11 @@ def esc(s):
 
 for lang, d in COPY.items():
  nav=''.join(f'<a href="{filename("offer", code)}" lang="{code}"'+(' aria-current="page"' if code==lang else '')+f'>{label}</a>' for code,label in LANGS.items())
+ starts={
+'en':'Google Play: AKUTSTART starts on 2 October 2026 at 16:05 UTC (18:05 in Sweden and Norway). The Apple offer is already available.',
+'sv':'Google Play: AKUTSTART börjar 2 oktober 2026 kl. 18.05 svensk tid (16.05 UTC). Apples erbjudande är redan tillgängligt.',
+'nb':'Google Play: AKUTSTART starter 2. oktober 2026 kl. 18.05 norsk tid (16.05 UTC). Apple-tilbudet er allerede tilgjengelig.',
+'da':'Google Play: AKUTSTART starter 2. oktober 2026 kl. 18.05 dansk tid (16.05 UTC). Apples tilbud er allerede tilgængeligt.'}
  sections=[]
  for key in ['terms','apple','android','cancel','free']:
   body=esc(d[key]).replace('info@sononordic.se','<a href="mailto:info@sononordic.se">info@sononordic.se</a>')
@@ -69,5 +74,5 @@ for lang, d in COPY.items():
  (SITE/filename('offer',lang)).write_text(f'''<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="{esc(d['intro'])}"><title>AKUTSTART — AkutPOCUS — SonoNordic</title><link rel="icon" href="logo.png"><link rel="stylesheet" href="akutpocus-legal.css"></head>
 <body><header><div class="top"><a class="brand" href="./"><img src="logo.png" alt="">SonoNordic <small>AB</small></a><a class="home" href="./">{esc(d['home'])} ↗</a></div></header>
-<main id="main"><div class="intro"><p class="eyebrow">AkutPOCUS · AKUTSTART</p><h1>{esc(d['title'])}</h1><nav class="languages" aria-label="{esc(d['language'])}">{nav}</nav><p class="notice">{esc(d['intro'])}</p></div><div class="layout"><nav class="contents" aria-label="AKUTSTART">{contents}</nav><article>{''.join(sections)}<p><a href="{filename('terms',lang)}">{esc(d['termsLink'])}</a> · <a href="{filename('privacy',lang)}">{esc(d['privacyLink'])}</a></p></article></div></main>
-<footer><span>SonoNordic AB · 559586-5816</span><a href="mailto:info@sononordic.se">info@sononordic.se</a><span>© 2026 SonoNordic AB</span></footer></body></html>''')
+<main id="main"><div class="intro"><p class="eyebrow">AkutPOCUS · AKUTSTART</p><h1>{esc(d['title'])}</h1><nav class="languages" aria-label="{esc(d['language'])}">{nav}</nav><p class="notice">{esc(d['intro'])}</p><p id="google-start" class="notice">{esc(starts[lang])}</p></div><div class="layout"><nav class="contents" aria-label="AKUTSTART">{contents}</nav><article>{''.join(sections)}<p><a href="{filename('terms',lang)}">{esc(d['termsLink'])}</a> · <a href="{filename('privacy',lang)}">{esc(d['privacyLink'])}</a></p></article></div></main>
+<footer><span>SonoNordic AB · 559586-5816</span><a href="mailto:info@sononordic.se">info@sononordic.se</a><span>© 2026 SonoNordic AB</span></footer><script>if(Date.now() >= Date.parse("2026-10-02T16:05:00Z")) document.getElementById("google-start").hidden=true;</script></body></html>''')
