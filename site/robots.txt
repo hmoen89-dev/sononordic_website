@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sononordic.se/sitemap.xml

@@ -7,6 +7,18 @@ To preview locally, run `python3 -m http.server 8766 --directory site`.
 The previous Flutter implementation is retained in `lib/` and `web/`.
 The privacy page remains explicitly marked as a draft pending final review of the app release.
 
+## Search indexing
+
+The English home, support and website privacy pages use clean HTTPS URLs;
+Swedish translations use `?lang=sv`. `site/seo.js` sets one canonical URL and
+reciprocal language alternatives, ignoring tracking parameters and the redundant
+`index.html`/`?lang=en` variants. These tags are generated in JavaScript because
+GitHub Pages serves the same HTML for both query-based languages; do not add a
+conflicting static English canonical. Language switching updates the canonical
+alongside the content. `site/sitemap.xml` lists these six preferred URLs and is
+advertised by `site/robots.txt`. App legal and campaign pages retain their existing
+`noindex` directives and are excluded from the sitemap.
+
 
 ## AkutPOCUS app privacy and subscription terms
 
