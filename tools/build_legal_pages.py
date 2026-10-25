@@ -1,11 +1,23 @@
-"""Build eight static, JavaScript-free review pages from checked-in translations."""
+"""Build static, JavaScript-free app legal pages from checked-in translations."""
 import html
 import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'site'
-LANGUAGES = {'sv': 'Svenska', 'nb': 'Norsk', 'da': 'Dansk', 'en': 'English'}
+LANGUAGES = {'sv': 'Svenska', 'nb': 'Norsk', 'da': 'Dansk', 'en': 'English', 'fr': 'Français'}
+CANCELLATION = {
+    'sv': ('Hantera eller avsluta abonnemang', 'Apple-abonnemang', 'Google Play-abonnemang',
+           'Öppna den butik där du köpte abonnemanget. Du kan behöva logga in på ditt butikskonto.'),
+    'nb': ('Administrer eller si opp abonnement', 'Apple-abonnement', 'Google Play-abonnement',
+           'Åpne butikken der du kjøpte abonnementet. Du må kanskje logge inn på butikkontoen din.'),
+    'da': ('Administrer eller opsig abonnement', 'Apple-abonnement', 'Google Play-abonnement',
+           'Åbn den butik, hvor du købte abonnementet. Du skal muligvis logge ind på din butikskonto.'),
+    'en': ('Manage or cancel your subscription', 'Apple subscriptions', 'Google Play subscriptions',
+           'Open the store where you purchased your subscription. You may need to sign in to your store account.'),
+    'fr': ('Gérer ou résilier votre abonnement', 'Abonnements Apple', 'Abonnements Google Play',
+           'Ouvrez la boutique dans laquelle vous avez souscrit l’abonnement. Vous devrez peut-être vous connecter à votre compte de boutique.'),
+}
 
 
 def filename(kind, lang):
@@ -47,6 +59,22 @@ for lang in LANGUAGES:
 <a href="https://policies.google.com/privacy">Google</a>
 <a href="https://www.apple.com/legal/privacy/">Apple</a>
 <a href="https://www.imy.se/">IMY</a></div>'''
+        canada = ''
+        if kind == 'privacy':
+            canada = ('<p class="notice" lang="fr">Canada / Québec : '
+                      '<a href="akutpocus-privacy-fr.html#section-10" lang="fr">'
+                      'Renseignements complémentaires en français</a> · '
+                      '<a href="akutpocus-privacy-en.html#section-10" lang="en">'
+                      'Additional information in English</a></p>')
+        cancellation = ''
+        if kind == 'terms':
+            heading, apple, google, explanation = CANCELLATION[lang]
+            cancellation = (f'<aside class="notice" aria-label="{esc(heading)}">'
+                            f'<h2>{esc(heading)}</h2><p>{esc(explanation)}</p>'
+                            f'<nav class="languages" aria-label="{esc(heading)}">'
+                            f'<a href="https://apps.apple.com/account/subscriptions">{esc(apple)}</a>'
+                            f'<a href="https://play.google.com/store/account/subscriptions">{esc(google)}</a>'
+                            '</nav></aside>')
         page = f'''<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow"><title>{esc(title)} — AkutPOCUS App — SonoNordic</title>
@@ -56,7 +84,7 @@ for lang in LANGUAGES:
 <a class="home" href="./?lang={home_lang}">{esc(data['home'])} ↗</a></div></header>
 <main id="main"><div class="intro"><p class="eyebrow">AkutPOCUS App</p><h1>{esc(title)}</h1>
 <p class="date">{esc(data.get(kind + 'Date', data['date']))}</p><nav class="languages" aria-label="{esc(data['language'])}">{nav}</nav>
-<p class="notice">{esc(data['notice'])}</p></div>
+<p class="notice">{esc(data['notice'])}</p>{canada}{cancellation}</div>
 <div class="layout"><nav class="contents" aria-label="{esc(title)}">{contents}</nav>
 <article>{sections}{providers}<a class="sibling" href="{filename(sibling, lang)}">{esc(data[sibling+'Title'])} →</a></article></div></main>
 <footer><span>SonoNordic AB · 559586-5816</span><a href="mailto:info@sononordic.se">info@sononordic.se</a><span>© 2026 SonoNordic AB</span></footer>

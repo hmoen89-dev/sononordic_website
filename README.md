@@ -22,7 +22,7 @@ advertised by `site/robots.txt`. App legal and campaign pages retain their exist
 
 ## AkutPOCUS app privacy and subscription terms
 
-Publication approved by the owner on 18 September 2026. The app-specific pages are available in Swedish, Norwegian, Danish and English. Text sources are in `site/legal-content/*.json`; regenerate the eight static pages with `python3 tools/build_legal_pages.py`. Swedish entry pages are `akutpocus-privacy.html` and `akutpocus-terms.html`; other languages add `-nb`, `-da` or `-en`.
+Publication approved by the owner on 18 September 2026. The app-specific pages are available in Swedish, Norwegian, Danish, English and French. French preparation and publication were requested on 25 October 2026 for Canada. Text sources are in `site/legal-content/*.json`; regenerate the ten static pages with `python3 tools/build_legal_pages.py`. Swedish entry pages are `akutpocus-privacy.html` and `akutpocus-terms.html`; other languages add `-nb`, `-da`, `-en` or `-fr`. All entry pages link to French without requiring JavaScript or a new app binary. Terms pages link directly to Apple and Google subscription management. English and French privacy pages include additional Canadian information. Publishing these pages does not enable Canada in either app store; the country remains off until the outstanding launch checks are resolved.
 
 The pages work without JavaScript and retain `noindex` during launch preparation. Retention is handled manually in RevenueCat with weekly planning and deletion when due. The selected Loopia/free Gmail setup is described explicitly; consumer Gmail is not described as a processor under a SonoNordic DPA. Existing website and Clinical privacy information is separate.
 
