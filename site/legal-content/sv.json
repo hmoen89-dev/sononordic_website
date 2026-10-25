@@ -25,7 +25,7 @@
     ],
     [
       "E-post och plattformsrapporter",
-      "När du kontaktar oss behandlar vi avsändaradress, meddelande och uppgifter du själv lämnar, exempelvis support-ID och appversion. E-post till info@sononordic.se tas emot och lagras hos Loopia och vidarebefordras till företagets kostnadsfria Gmail-konto. Skicka endast nödvändiga uppgifter, aldrig identifierbara patientuppgifter. Google behandlar Gmail-data enligt sina egna konsumentvillkor och sin integritetspolicy och agerar inte som vårt personuppgiftsbiträde för denna tjänst. Apple och Google kan också tillhandahålla plattformarnas användnings- och felrapporter beroende på användarinställningar. Appen har ingen separat tjänst för allmän användningsanalys eller kraschrapportering."
+      "När du kontaktar oss behandlar vi avsändaradress, meddelande och uppgifter du själv lämnar, exempelvis support-ID och appversion. Från den 25 oktober 2026 tas support till info@sononordic.se emot, lagras och besvaras direkt hos Loopia, utan automatisk vidarebefordran till Gmail. Skicka endast nödvändiga uppgifter, aldrig identifierbara patientuppgifter. Apple och Google kan också tillhandahålla plattformarnas användnings- och felrapporter beroende på användarinställningar. Appen har ingen separat tjänst för allmän användningsanalys eller kraschrapportering."
     ],
     [
       "Ändamål och rättslig grund",
@@ -33,11 +33,11 @@
     ],
     [
       "Leverantörer och överföringar",
-      "RevenueCat behandlar prenumerationsdata för vår räkning. Loopia behandlar e-post enligt sitt avtalsverk. Apple, Google Play och kostnadsfria Gmail behandlar också uppgifter enligt sina egna plattformsvillkor. Leverantörer kan behandla data utanför EES, bland annat i USA. RevenueCats och Loopias biträdesavtal beskriver relevanta överföringsmekanismer, inklusive standardavtalsklausuler. För kostnadsfria Gmail gäller Googles egen integritetspolicy och överföringsgrunder, inte ett biträdesavtal med SonoNordic. Kontakta oss för information om skyddsåtgärder och kopior där det är aktuellt. Leverantörslänkar finns nedan."
+      "RevenueCat behandlar prenumerationsdata för vår räkning. Loopia behandlar supportmejl för vår räkning enligt sitt personuppgiftsbiträdesavtal. Apple och Google Play behandlar uppgifter enligt sina egna plattformsvillkor. Leverantörer kan behandla data utanför EES, bland annat i USA. RevenueCats och Loopias biträdesavtal beskriver relevanta överföringsmekanismer, inklusive standardavtalsklausuler. Äldre supportkorrespondens kan finnas kvar i Gmail enligt Googles konsumentvillkor och integritetspolicy, utan biträdesavtal med SonoNordic. Ny supportkorrespondens hanteras direkt hos Loopia. Kontakta oss för information om skyddsåtgärder och kopior där det är aktuellt. Leverantörslänkar finns nedan."
     ],
     [
       "Lagring och radering",
-      "Den valda lagringsregeln för RevenueCat är aktiv åtkomst plus tolv månader efter att den senaste åtkomstperioden löpt ut. Profiler som aldrig haft köpt eller tilldelad åtkomst har en vald frist på tolv månader från senaste registrerade kontakt med tjänsten; enbart offlineanvändning syns inte. Raderingsfrister planeras vid veckovis manuell genomgång i RevenueCat, med radering när fristen löper ut. Oklara fall utreds separat. Nödvändiga uppgifter för en konkret tvist eller rättslig skyldighet kan sparas längre för det avgränsade ändamålet. Lokala värden ersätts när appen sparar nya värden. Radering hos oss tar inte automatiskt bort butikens egna uppgifter. Uppgiven supportrutin är att radera färdigbehandlade ärenden hos både Loopia och Gmail. Gmail raderar normalt från papperskorgen efter 30 dagar. Loopia anger normalt e-postbackup i upp till 21 dagar, med några extra dagar när hela brevlådan tas bort. Detta innebär inte omedelbar radering av alla kopior."
+      "Den valda lagringsregeln för RevenueCat är aktiv åtkomst plus tolv månader efter att den senaste åtkomstperioden löpt ut. Profiler som aldrig haft köpt eller tilldelad åtkomst har en vald frist på tolv månader från senaste registrerade kontakt med tjänsten; enbart offlineanvändning syns inte. Raderingsfrister planeras vid veckovis manuell genomgång i RevenueCat, med radering när fristen löper ut. Oklara fall utreds separat. Nödvändiga uppgifter för en konkret tvist eller rättslig skyldighet kan sparas längre för det avgränsade ändamålet. Lokala värden ersätts när appen sparar nya värden. Radering hos oss tar inte automatiskt bort butikens egna uppgifter. Supportrutinen är att radera färdigbehandlade ärenden hos Loopia och eventuella äldre kopior i Gmail. Ändringen av e-posthanteringen raderar inte i sig äldre korrespondens. Gmail raderar normalt från papperskorgen efter 30 dagar. Loopia anger normalt e-postbackup i upp till 21 dagar, med några extra dagar när hela brevlådan tas bort. Detta innebär inte omedelbar radering av alla kopior."
     ],
     [
       "Dina rättigheter",
@@ -78,6 +78,6 @@
       "Åtkomst ger rätt att använda innehållet i appen, inte att sälja vidare eller återpublicera det utan rättighetshavarens tillstånd, med lagens undantag. Vi kan rätta och uppdatera appen. Väsentliga ändringar hanteras med information och lagstadgade rättigheter. Håll appen uppdaterad för rättelser; offlineinnehåll uppdateras inte av sig självt. Villkoren begränsar inte ansvar som inte lagligen kan avtalas bort. Behandling av uppgifter beskrivs på integritetssidan."
     ]
   ],
-  "privacyDate": "Uppdaterad 21 september 2026",
+  "privacyDate": "Uppdaterad 25 oktober 2026",
   "termsDate": "Uppdaterad 2 oktober 2026"
 }

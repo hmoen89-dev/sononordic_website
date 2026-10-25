@@ -25,7 +25,7 @@
     ],
     [
       "E-post og plattformrapporter",
-      "Ved kontakt behandler vi avsenderadresse, meldingsinnhold og opplysningene du selv gir, for eksempel support-ID og appversjon. E-post til info@sononordic.se mottas og lagres hos Loopia og videresendes til firmaets gratis Gmail-konto. Send bare nødvendige opplysninger, aldri identifiserbare pasientopplysninger. Google behandler Gmail-data etter sine egne forbrukervilkår og sin personvernerklæring, og opptrer ikke som vår databehandler for denne tjenesten. Apple og Google kan også gjøre plattformenes bruks- og feilrapporter tilgjengelige, avhengig av brukerinnstillinger. Appen har ingen separat generell bruksanalyse- eller krasjrapporteringstjeneste."
+      "Ved kontakt behandler vi avsenderadresse, meldingsinnhold og opplysningene du selv gir, for eksempel support-ID og appversjon. Fra 25. oktober 2026 mottas, lagres og besvares support til info@sononordic.se direkte hos Loopia, uten automatisk videresending til Gmail. Send bare nødvendige opplysninger, aldri identifiserbare pasientopplysninger. Apple og Google kan også gjøre plattformenes bruks- og feilrapporter tilgjengelige, avhengig av brukerinnstillinger. Appen har ingen separat generell bruksanalyse- eller krasjrapporteringstjeneste."
     ],
     [
       "Formål og grunnlag",
@@ -33,11 +33,11 @@
     ],
     [
       "Leverandører og overføringer",
-      "RevenueCat behandler abonnementsdata på våre vegne. Loopia behandler e-post under sitt avtaleverk. Apple, Google Play og gratis Gmail behandler også opplysninger etter sine egne plattformvilkår. Leverandører kan behandle data utenfor EØS, blant annet i USA. RevenueCats og Loopias databehandleravtaler beskriver relevante overføringsmekanismer, inkludert standard personvernbestemmelser. For gratis Gmail gjelder Googles egen personvernerklæring og overføringsgrunnlag, ikke en databehandleravtale med SonoNordic. Kontakt oss for informasjon om garantier og kopi der det er aktuelt. Leverandørlenker finnes nedenfor."
+      "RevenueCat behandler abonnementsdata på våre vegne. Loopia behandler support-e-post på våre vegne under sin databehandleravtale. Apple og Google Play behandler opplysninger etter sine egne plattformvilkår. Leverandører kan behandle data utenfor EØS, blant annet i USA. RevenueCats og Loopias databehandleravtaler beskriver relevante overføringsmekanismer, inkludert standard personvernbestemmelser. Eldre supportkorrespondanse kan fortsatt ligge i Gmail under Googles forbrukervilkår og personvernerklæring, uten databehandleravtale med SonoNordic. Ny supportkorrespondanse håndteres direkte hos Loopia. Kontakt oss for informasjon om garantier og kopi der det er aktuelt. Leverandørlenker finnes nedenfor."
     ],
     [
       "Oppbevaring og sletting",
-      "Valgt oppbevaringsregel for RevenueCat er aktiv tilgang pluss tolv måneder fra siste tilgangs utløp. Profiler som aldri har hatt kjøpt eller tildelt tilgang har en valgt frist på tolv måneder fra siste registrerte kontakt med tjenesten; ren offlinebruk er ikke synlig. Slettefrister planlegges ved ukentlig manuell gjennomgang i RevenueCat, med sletting ved forfall. Uklare tilfeller undersøkes særskilt. Nødvendige opplysninger for en konkret tvist eller lovpålagt plikt kan beholdes lenger for det avgrensede formålet. Lokale verdier erstattes når appen lagrer nye verdier. Sletting hos oss fjerner ikke automatisk butikkens egne data. Oppgitt supportpraksis er å slette ferdigbehandlede henvendelser hos både Loopia og Gmail. Gmail sletter normalt fra papirkurven etter 30 dager. Loopia oppgir normalt e-postbackup opptil 21 dager, med noen ekstra dager ved sletting av hele postkassen. Dette er ikke umiddelbar sletting av alle kopier."
+      "Valgt oppbevaringsregel for RevenueCat er aktiv tilgang pluss tolv måneder fra siste tilgangs utløp. Profiler som aldri har hatt kjøpt eller tildelt tilgang har en valgt frist på tolv måneder fra siste registrerte kontakt med tjenesten; ren offlinebruk er ikke synlig. Slettefrister planlegges ved ukentlig manuell gjennomgang i RevenueCat, med sletting ved forfall. Uklare tilfeller undersøkes særskilt. Nødvendige opplysninger for en konkret tvist eller lovpålagt plikt kan beholdes lenger for det avgrensede formålet. Lokale verdier erstattes når appen lagrer nye verdier. Sletting hos oss fjerner ikke automatisk butikkens egne data. Supportpraksis er å slette ferdigbehandlede henvendelser hos Loopia og eventuelle eldre kopier i Gmail. Endringen i e-posthåndtering sletter ikke i seg selv eldre korrespondanse. Gmail sletter normalt fra papirkurven etter 30 dager. Loopia oppgir normalt e-postbackup opptil 21 dager, med noen ekstra dager ved sletting av hele postkassen. Dette er ikke umiddelbar sletting av alle kopier."
     ],
     [
       "Dine rettigheter",
@@ -78,6 +78,6 @@
       "Tilgang gir rett til å bruke innholdet i appen, ikke videreselge eller republisere det uten rettighetshaverens tillatelse, med lovens unntak. Vi kan rette og oppdatere appen. Vesentlige endringer håndteres med informasjon og lovfestede rettigheter. Hold appen oppdatert for rettelser; offlineinnhold oppdateres ikke av seg selv. Vilkårene begrenser ikke ansvar som ikke lovlig kan fravikes. Behandling av opplysninger er beskrevet på personvernsiden."
     ]
   ],
-  "privacyDate": "Oppdatert 21. september 2026",
+  "privacyDate": "Oppdatert 25. oktober 2026",
   "termsDate": "Oppdatert 2. oktober 2026"
 }
