@@ -1,6 +1,7 @@
 """Build static, JavaScript-free app legal pages from checked-in translations."""
 import html
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -29,8 +30,11 @@ def esc(value):
 
 
 def paragraph(value):
-    return esc(value).replace('info@sononordic.se',
+    text = esc(value).replace('info@sononordic.se',
                              '<a href="mailto:info@sononordic.se">info@sononordic.se</a>')
+    return re.sub(r'\+\d[\d ]{7,}\d',
+                  lambda match: f'<a href="tel:{match[0].replace(" ", "")}">{match[0]}</a>',
+                  text)
 
 
 for lang in LANGUAGES:
@@ -66,6 +70,11 @@ for lang in LANGUAGES:
                       'Renseignements complémentaires en français</a> · '
                       '<a href="akutpocus-privacy-en.html#section-10" lang="en">'
                       'Additional information in English</a></p>')
+        elif kind == 'terms' and lang == 'en':
+            canada = ('<p class="notice">Canada / Québec: '
+                      '<a href="akutpocus-terms-fr.html#section-9">'
+                      'Contact details / Coordonnées</a> '
+                      '(French and English).</p>')
         cancellation = ''
         if kind == 'terms':
             heading, apple, google, explanation = CANCELLATION[lang]
