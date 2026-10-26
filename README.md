@@ -15,7 +15,10 @@ reciprocal language alternatives, ignoring tracking parameters and the redundant
 `index.html`/`?lang=en` variants. These tags are generated in JavaScript because
 GitHub Pages serves the same HTML for both query-based languages; do not add a
 conflicting static English canonical. Language switching updates the canonical
-alongside the content. `site/sitemap.xml` lists these six preferred URLs and is
+alongside the content. The separate English and Swedish app landing pages (`akutpocus-app.html` and
+`akutpocus-app-sv.html`) have static, self-referencing canonical tags and reciprocal
+language alternatives. They work without JavaScript and are linked from the home page.
+`site/sitemap.xml` lists all eight preferred URLs and is
 advertised by `site/robots.txt`. App legal and campaign pages retain their existing
 `noindex` directives and are excluded from the sitemap.
 
